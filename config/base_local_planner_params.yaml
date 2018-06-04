@@ -3,18 +3,20 @@ TrajectoryPlannerROS:
   holonomic_robot: false
 
   sim_time: 2.0
-  sim_granularity:   0.025
+  sim_granularity:   1.0
+
+  meter_scoring: true
 
   min_vel_x: 0.1
 
   vx_samples: 10
   vth_samples: 20
 
-  pdist_scale: 0.6
+  pdist_scale: 1.2
   gdist_scale: 0.8
-  occdist_scale: 0.01
-  heading_lookahead: 0.325
-  heading_scoring: false
+  occdist_scale: 0.5
+  heading_lookahead: 0.8
+  heading_scoring: true
 
   publish_cost_grid_pc: true
 
