@@ -2,7 +2,7 @@
 
 <robot name="udacity_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <xacro:include filename="$(find udacity_bot)/urdf/udacity_bot.gazebo" />
+  <xacro:include filename="$(find udacity_bot)/urdf/benchmark/udacity_bot_benchmark.gazebo" />
   
 <link name="robot_footprint"></link>
 
