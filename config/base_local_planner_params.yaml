@@ -3,7 +3,7 @@ TrajectoryPlannerROS:
   holonomic_robot: false
 
   sim_time: 2.0
-  sim_granularity:   1.0
+  sim_granularity:   0.3
 
   meter_scoring: true
 
