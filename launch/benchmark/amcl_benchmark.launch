@@ -16,11 +16,13 @@
 
     <!-- added params -->
     <!--<param name="transform_tolerance" value="0.0"/>-->
-    <param name="min_particles" value="50"/>
-    <param name="max_particles" value="500"/>
+    <param name="min_particles" value="40"/>
+    <param name="max_particles" value="100"/>
 
-    <param name="update_min_d" value="0.05"/>
-    <param name="update_min_a" value="0.2618"/>
+    <!-- <param name="update_min_d" value="0.05"/>
+    <param name="update_min_a" value="0.2618"/> -->
+    <param name="update_min_d" value="0.02"/>
+    <param name="update_min_a" value="0.1"/> 
 
     <param name="laser_max_range" value="0.1"/>
     <param name="laser_max_range" value="30.0"/>
