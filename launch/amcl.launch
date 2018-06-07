@@ -24,7 +24,7 @@
     <param name="update_min_d" value="0.02"/>
     <param name="update_min_a" value="0.1"/> 
 
-    <param name="laser_max_range" value="0.1"/>
+    <param name="laser_min_range" value="0.1"/>
     <param name="laser_max_range" value="30.0"/>
 
     <param name="laser_max_beams" value="30"/>
